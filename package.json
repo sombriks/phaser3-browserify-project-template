@@ -1,0 +1,28 @@
+{
+  "name": "phaser3-browserify",
+  "version": "1.0.0",
+  "description": "sample phaser3 project using browserify",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify src/index.js -o build.js",
+    "dev": "budo src/index.js:build.js -H 127.0.0.1 -l -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sombriks/phaser3-browserify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sombriks/phaser3-browserify/issues"
+  },
+  "homepage": "https://github.com/sombriks/phaser3-browserify#readme",
+  "dependencies": {
+    "phaser": "^3.11.0"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.2",
+    "budo": "^11.3.2"
+  }
+}
